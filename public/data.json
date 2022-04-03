@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "1",
+        "name": "Abul Kashem",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607516351748.jpg",
+        "review_text": "One of the best product in our entire generation. Extraordinary picture quality",
+        "rating": "5/5"
+    },
+    {
+        "_id": "2",
+        "name": "Hashem Ali",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1621058497708.png",
+        "review_text": "Great viewing angle. Vivid color. Most bright TV I have ever used.",
+        "rating": "4/5"
+    },
+    {
+        "_id": "3",
+        "name": "Jannatun Naim",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1609173043530.jpg",
+        "review_text": "Best value for money. According to price exceptional quality.",
+        "rating": "5/5"
+    },
+    {
+        "_id": "4",
+        "name": "Misir Ali",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607516912860.png",
+        "review_text": "Who knows the best picture quality will be seen very soon. More than satisfied.",
+        "rating": "4/5"
+    },
+    {
+        "_id": "5",
+        "name": "Mahmud Hasan",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1629096846802.jpeg",
+        "review_text": "Most unique design, premium look and very much affordable.",
+        "rating": "5/5"
+    },
+    {
+        "_id": "6",
+        "name": "Kamrul Islam",
+        "image": "https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1612718157598.jpg",
+        "review_text": "Probably the best TV in the market right now. No compromise in quality.",
+        "rating": "4/5"
+    }
+]
