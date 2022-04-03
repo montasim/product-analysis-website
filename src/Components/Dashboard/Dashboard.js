@@ -43,7 +43,9 @@ const data = [
 
 const Dashboard = () => {
     return (
-        <div className='m-12'>
+        <div data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500" className='m-12'>
             <h2 className='mb-12'>Dashboard</h2>
             <div className='flex gap-12'>
                 <BarChart className='' width={530} height={250} data={data}>

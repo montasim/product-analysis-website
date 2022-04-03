@@ -7,14 +7,20 @@ import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import Navbar from './Components/Navbar/Navbar';
-import { createContext } from 'react';
+import { createContext, useEffect } from 'react';
 import LoadReviews from './Hooks/LoadReviews';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 
 export const ReviewContext = createContext();
 
 function App() {
   const [reviews, setReviews] = LoadReviews([]);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <ReviewContext.Provider value={[reviews, setReviews]}>
