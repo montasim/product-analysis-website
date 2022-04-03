@@ -1,8 +1,11 @@
-import LoadReviews from '../../Hooks/LoadReviews';
+import { useContext } from 'react';
+import { ReviewContext } from '../../App';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [reviews, setReviews] = LoadReviews();
+    const [reviews] = useContext(ReviewContext);
+
+    console.log(reviews);
 
     return (
         <section className="text-gray-600 body-font">

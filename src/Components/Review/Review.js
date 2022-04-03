@@ -3,8 +3,6 @@ import React from 'react';
 const Review = (props) => {
     const { name, image, rating, review_text } = props?.review;
 
-    console.log(props?.review);
-
     return (
         <div className="p-4 md:w-1/3">
             <div className="h-full border-2 rounded-lg items-center">

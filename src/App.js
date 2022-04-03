@@ -7,22 +7,31 @@ import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
 import NotFound from './Components/NotFound/NotFound';
 import Navbar from './Components/Navbar/Navbar';
+import { createContext } from 'react';
+import LoadReviews from './Hooks/LoadReviews';
+
+
+export const ReviewContext = createContext();
 
 function App() {
-  return (
-    <div>
-      <Navbar />
+  const [reviews, setReviews] = LoadReviews([]);
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/reviews" element={<Reviews />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/blogs" element={<Blogs />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </div>
+  return (
+    <ReviewContext.Provider value={[reviews, setReviews]}>
+      <div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </ReviewContext.Provider >
   );
 }
 
