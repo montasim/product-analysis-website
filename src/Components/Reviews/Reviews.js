@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-import { useLocation } from 'react-router-dom';
 import { ReviewContext } from '../../App';
 import Review from '../Review/Review';
 
