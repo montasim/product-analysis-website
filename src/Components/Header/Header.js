@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-800">Best TV of 2022</h1>
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-500">Best TV of 2022</h1>
-                    <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                    <p className="mb-8 leading-relaxed">The Samsung QN90A Neo QLED is the best TV we've reviewed, delivering superb picture quality with its combination of QLED color and mini-LED backlight (the ingredients that make up Neo QLED). Pair that performance with fantastic sound, rich smart features and a stylish design, and you've got the best TV we've reviewed recently. Just be aware that this premium 4K smart TV doesn't come cheap.</p>
                     <div className="flex justify-center">
                         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg font-bold">Buy Now</button>
                     </div>
