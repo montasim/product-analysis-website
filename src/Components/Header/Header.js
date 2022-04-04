@@ -10,7 +10,7 @@ const Header = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-indigo-500">Best TV of 2022</h1>
                     <p className="mb-8 leading-relaxed">The Samsung QN90A Neo QLED is the best TV we've reviewed, delivering superb picture quality with its combination of QLED color and mini-LED backlight (the ingredients that make up Neo QLED). Pair that performance with fantastic sound, rich smart features and a stylish design, and you've got the best TV we've reviewed recently. Just be aware that this premium 4K smart TV doesn't come cheap.</p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg font-bold">Buy Now</button>
+                        <button onClick={() => window.location.assign("https://www.amazon.in/s?k=Samsung+QN90A+QLED+TV&ascsubtag=tomsguide-row-2595105579065182000-20&geniuslink=true&tag=georiot-in-default-21")} className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg font-bold">Buy Now</button>
                     </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
