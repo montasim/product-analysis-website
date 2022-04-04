@@ -1,5 +1,5 @@
 import React from 'react';
-import { CartesianGrid, XAxis, YAxis, BarChart, Tooltip, Legend, Bar, LineChart, Line, ComposedChart, Area, AreaChart } from 'recharts';
+import { CartesianGrid, XAxis, YAxis, BarChart, Tooltip, Legend, Bar, LineChart, Line, ComposedChart, Area, AreaChart, PieChart, Pie, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
 
 const data = [
     {
@@ -45,9 +45,9 @@ const Dashboard = () => {
         <section className="text-gray-600 body-font mx-12 mt-20">
             <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-neutral-600">Welcome to DigitalTrend Dashboard</h1>
             <hr />
-            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center justify-center">
-                    <BarChart className='' width={500} height={200} data={data}>
+            <div className="container mx-auto flex m-12 px-12 md:flex-row flex-col items-center justify-between">
+                <div className="mx-8 lg:flex-grow md:w-1/2 items-center justify-center">
+                    <BarChart className='' width={420} height={200} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -58,8 +58,8 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <LineChart width={500} height={200} data={data}
+                <div className="mx-8 lg:flex-grow md:w-1/2 items-center justify-center">
+                    <LineChart width={420} height={200} data={data}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -73,9 +73,9 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center justify-center text-center">
-                    <ComposedChart width={500} height={200} data={data}>
+            <div className="container mx-auto flex m-12 px-12 md:flex-row flex-col items-center justify-between">
+                <div className="mx-8 lg:flex-grow md:w-1/2 items-center justify-center">
+                    <ComposedChart width={420} height={200} data={data}>
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
@@ -86,8 +86,8 @@ const Dashboard = () => {
                         <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
                     </ComposedChart>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <AreaChart width={500} height={200} data={data}
+                <div className="mx-8 lg:flex-grow md:w-1/2 items-center justify-center">
+                    <AreaChart width={420} height={200} data={data}
                         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                         <defs>
                             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
