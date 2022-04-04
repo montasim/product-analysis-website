@@ -15,7 +15,7 @@ const Home = () => {
             data-aos-duration="500" className='mx-12 px-4'>
             <Header />
 
-            <h1 className="title-font sm:text-3xl text-center text-3xl mb-4 font-bold text-grey-800">Customer Reviews (3)</h1>
+            <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-grey-800">Customers Review (3)</h1>
             <hr />
 
             <section className="text-gray-600 body-font">

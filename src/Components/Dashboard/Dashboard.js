@@ -45,9 +45,10 @@ const Dashboard = () => {
     return (
         <div data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="500" className='m-12'>
-            <h2 className='mb-12'>Dashboard</h2>
-            <div className='flex gap-12'>
+            data-aos-duration="500" className='mx-12 my-20'>
+            <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-grey-800">Welcome to DigitalTrend Dashboard</h1>
+            <hr />
+            <div className='flex gap-12 mt-20'>
                 <BarChart className='' width={530} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />

@@ -5,8 +5,9 @@ const Blogs = () => {
     return (
         <div data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="500" className='mx-12'>
-            <h2 className='my-12 text-2xl uppercase text-indigo-500'>Some Questions About React Router</h2>
+            data-aos-duration="500" className='mx-12 my-20'>
+            <h2 className='title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-grey-800'>Some Questions About React Router</h2>
+            <hr />
             <QuestionAnswer />
         </div>
     );

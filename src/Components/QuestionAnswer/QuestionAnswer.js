@@ -2,7 +2,7 @@ import React from 'react';
 
 const QuestionAnswer = () => {
     return (
-        <section className='mx-8'>
+        <section className='mx-12 mt-12'>
             <section className="text-gray-600 body-font overflow-hidden">
                 <div className="container px-5 py-6 mx-auto">
                     <div className="-my-8 divide-y-2 divide-gray-100">
