@@ -80,9 +80,9 @@ const Dashboard = () => {
                     <Tooltip />
                     <Legend />
                     <CartesianGrid stroke="#f5f5f5" />
-                    <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
+                    <Area type="monotone" dataKey="investment" fill="url(#colorUv)" stroke="#8884d8" />
                     <Bar dataKey="sell" barSize={20} fill="#F24A72" />
-                    <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
+                    <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
                 </ComposedChart>
 
                 <AreaChart width={530} height={250} data={data}
