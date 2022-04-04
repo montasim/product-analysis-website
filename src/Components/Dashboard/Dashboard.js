@@ -40,14 +40,13 @@ const data = [
     }
 ]
 
-
 const Dashboard = () => {
     return (
         <section className="text-gray-600 body-font mx-12 mt-20">
             <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-neutral-600">Welcome to DigitalTrend Dashboard</h1>
             <hr />
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center justify-center text-center">
+                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center justify-center">
                     <BarChart className='' width={500} height={200} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
