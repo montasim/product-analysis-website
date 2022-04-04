@@ -20,8 +20,8 @@ const QuestionAnswer = () => {
                         </div>
                         <div className="py-8 flex flex-wrap md:flex-nowrap">
                             <div className="md:flex-grow">
-                                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Difference between inline block vs block elements?</h2>
-                                <p className="leading-relaxed">Inline-block element is formatted just like the inline element, where it doesn’t start on a new line. BUT, you can set width and height values. On the other hand the block element will start on a new line and occupy the full width available. And you can set width and height values.</p>
+                                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Difference between inline vs block vs inline block elements?</h2>
+                                <p className="leading-relaxed">An Inline or Inline block element does not starts on a new line. A block elements always starts on a new line. Inline or Inline block elements can be placed side by side. A block elements can not placed side by side. Weight, height or margin can not be set on inline element. We can set width, height or margin to Inline block or block elements.</p>
                             </div>
                         </div>
                     </div>
