@@ -4,14 +4,13 @@ const Review = (props) => {
     const { name, image, rating, review_text } = props?.review;
 
     return (
-        <div className="p-4 md:w-1/3">
-            <div className="h-full border-2 rounded-lg items-center">
-                <img className="lg:h-48 md:h-36 w-50 object-cover object-center" src={image} alt="blog" />
-                <div className="p-6">
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{name}</h1>
-                    <p className="leading-relaxed mb-3">{review_text}</p>
-                    <p className='title-font'>Rating <span className='text-xl font-bold'>{rating}</span></p>
-                </div>
+        <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div className="h-full text-center">
+                <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={image} />
+                <p className="leading-relaxed">{review_text}</p>
+                <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">{name}</h2>
+                <p className="text-gray-500">Rating: {rating}</p>
             </div>
         </div>
     );
