@@ -46,7 +46,7 @@ const Dashboard = () => {
         <div data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="500" className='mx-12 my-20'>
-            <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-grey-800">Welcome to DigitalTrend Dashboard</h1>
+            <h1 className="title-font sm:text-3xl text-center text-3xl uppercase mb-4 font-bold text-neutral-600">Welcome to DigitalTrend Dashboard</h1>
             <hr />
             <div className='flex gap-12 mt-20'>
                 <BarChart className='' width={530} height={250} data={data}>
